@@ -5,11 +5,11 @@ This stuff is used by me to compile more complex programs without re-writing thi
 Feel free to pick those lines up and modify them to your contracts, based on your purpose. 🥰
 
  ## This repo includes:
-1. A simple Save & Return string program.
-2. A counter (saving, adding, resetting a uint value).
-3. A register example (here I used students).
-4. A Bank contract, used to deposit and withdraw Ether.
-5. A simple Lottery contract
+1. A simple Save & Return string program. `Hello_World.sol`.
+2. A counter (saving, adding, resetting a uint value) `Counter.soly`.
+3. A register example (here I used students) `StudentRegister.sol`.
+4. A Bank contract, used to deposit and withdraw Ether `Bank.sol`.
+5. A simple Lottery contract `Lottery.sol`.
 
 ## How to use
 Just copy my code and modifiy it as you wish, but always remember to:
