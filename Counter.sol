@@ -4,21 +4,23 @@ contract Counter {
     
     uint256 public count;
 
-    function viewCount oublic view return (uint256) {
+    function viewCount() public view returns (uint256) {
         return count;
     }
 
-    function increment(uint256) public return (uint256) {
+    function increment() public returns (uint256) {
         count += 1;
+        return count;
     }
 
-    function decrement(uint256) public return (uint256) {
-        require (count > 0, "Counter must have a value different from zero");
+    function decrement() public returns (uint256) {
+        require(count > 0, "Counter must have a value greater than zero");
         count -= 1;
+        return count;
     }
 
-    function reset(uint256) public return (uint256) {
+    function reset() public returns (uint256) {
         count = 0;
+        return count;
     }
-
 }
